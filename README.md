@@ -8,7 +8,7 @@ Arcade Music Fest, a newly recurring music festival in Covington, KY, debuted th
 
 ## The Problem of *The Flyer*
 
-![AMF Artist Schedule]([/Images/Total%20Fitbit%20Inactivity%20by%20Weekday%20and%20Time.png](https://github.com/zlaw-21/event-schedule-gantt/blob/main/images/AMF%20Artist%20Schedule.avif))
+<img src="/images/AMF%20Artist%20Schedule.avif" alt="AMF Artist Schedule" width="50%" height="50%">
 
 While the flyer provided strong branding and visual appeal, it lacked utility and readability for Type-A festival goers who wanted to plan their experience in detail. The dense layout made it difficult to quickly compare set times across eight venues, spot potential overlaps, or identify gaps in the schedule. Without an interactive or structured digital version, attendees had no efficient way to organize their time, creating a cognitive load similar to a high-stakes chess endgame where every move must be planned several steps ahead.
 
