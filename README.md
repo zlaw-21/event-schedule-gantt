@@ -1,9 +1,14 @@
 
 ## Table of Contents
-
+- [Introduction](#introduction)
+- [The Problem of the *Flyer*](#the-problem-of-the-flyer)
+- [The Tutorial](#the-tutorial)
+- [The Visualization & Solution](the-visualization-&-solution)
+  
 
 ## Introduction
 Arcade Music Fest, a newly recurring music festival in Covington, KY, debuted the weekend of August 8th, bringing together local musicians from the Cincinnati area to perform across eight venues along the historic Pike Street corridor. The festival’s official schedule was provided as a static flyer that listed performance times and locations, but its dense layout made it difficult for attendees to quickly compare overlapping sets or plan transitions between venues. This project aimed to transform that unstructured flyer into a clear, minute-level Gantt chart in Excel for the Saturday lineup, delivering a visual schedule that enhanced readability, improved planning, and could be adapted for other multi-venue or time-based events.
+
 
 ## The Problem of *The Flyer*
 <img src="/images/AMF%20Artist%20Schedule.avif" alt="AMF Artist Schedule" width="50%" height="50%">
@@ -11,6 +16,7 @@ Arcade Music Fest, a newly recurring music festival in Covington, KY, debuted th
 While the flyer provided strong branding and visual appeal, it lacked utility and readability for Type-A festival goers who wanted to plan their experience in detail. The dense layout made it difficult to quickly compare set times across eight venues, spot potential overlaps, or identify gaps in the schedule. Without an interactive or structured digital version, attendees had no efficient way to organize their time, creating a cognitive load similar to a high-stakes chess endgame where every move must be planned several steps ahead.
 
 To resolve this, I fell on my early career Scrum Master training and aimed to build a minute-level Gantt chart to visualize the lineup for easy side-by-side time analysis of venue schedules. Gantt charts have been historically used in project management communities to understand simultaneous processes, but have fallen out of favor in Agile communities due to their rigidity. For this use case in particular, the rigidity is exactly what we need to help festival goers plan their experience and make split second decisions at the event.
+
 
 ## The Tutorial
 At a high level, the goal is to build a stacked bar chart that uses both calculations and formatting to mimic the look and utility of a Gantt chart. The approach is simple: for each row of data, we’ll layer bars onto the chart by adding additional series for each timeslot, gradually building out the full visualization.
@@ -75,6 +81,7 @@ Some quick tips to get you started:
 - To add labels to each bar directly, right click a series bar -> Add Data Labels -> Label Options -> Value From Cells -> Select all series Artists -> Uncheck Value
 - To increase the vertical thickness of all bars, right click any series bar -> Format Data Series -> Series Options -> Adjust Gap Width to the desired size
 - To adjust a series or individual bar color, right click any series bar (double click for single selection) -> Format Data Series -> Fill & Line -> Select the desired fill color
+
 
 ## The Visualization & Solution
 
