@@ -98,9 +98,9 @@ The result is an aesthetic and informative resource that allows the user to pre-
 While the finalized visualization helped resolve the Arcade Music Fest Flyer use case, I have also created a repeatable process and foundation for those who want to learn to build a single day, minute-level Gantt chart in Excel. 
 
 Key Deliverables include:
-- The finalized excel file [here](https://github.com/zlaw-21/event-schedule-gantt/blob/main/Arcade_Musis_Fest_Gantt.xlsx) for those interested in my visualization.
-- The framework excel file [here](https://github.com/zlaw-21/event-schedule-gantt/blob/main/gantt_chart_template.xlsx) for those who want to learn to build the chart from scratch.
-- The prepackaged excel file [here](https://github.com/zlaw-21/event-schedule-gantt/blob/main/gantt_chart_prepackaged.xlsx) for those who want to build something quickly.
+- The **finalized** excel file [here](https://github.com/zlaw-21/event-schedule-gantt/blob/main/Arcade_Musis_Fest_Gantt.xlsx) for those interested in my visualization.
+- The **framework excel** file [here](https://github.com/zlaw-21/event-schedule-gantt/blob/main/gantt_chart_template.xlsx) for those who want to learn to build the chart from scratch.
+- The **prepackaged** excel file [here](https://github.com/zlaw-21/event-schedule-gantt/blob/main/gantt_chart_prepackaged.xlsx) for those who want to build something quickly.
 
 Together, these resources provide flexibility for learning, customization, or quick deployment, making the process adaptable to a wide range of event scheduling needs.
 
