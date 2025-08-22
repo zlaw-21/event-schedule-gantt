@@ -4,6 +4,7 @@
 - [The Problem of the *Flyer*](#the-problem-of-the-flyer)
 - [The Tutorial](#the-tutorial)
 - [The Visualization & Solution](#the-visualization--solution)
+- [Key Takeaways](#key-takeaways)
   
 
 ## Introduction
@@ -33,7 +34,7 @@ To get started, enter the data for Stage and Series 1.
     - End Time: End time of the event. Ensure this is in the "Time" data format.
     - Duration: ```End Time - Start Time``` of the event. Ensure this is in the "Time" data format.
 
-NOTE: Excel handles timeframes in a slightly less intuitve way than one might expect at first glance. 
+NOTE: Excel handles timeframes in a slightly less intuitive way than one might expect at first glance. 
 
 ``` =7:55:00 PM - 7:00:00 PM ``` returns 12:55:00 AM when in the Time format, and 0.0381944444444445 when in General or Number formats. This is because Excel converts a 24 hour period to a value of 1.0. In our case, 55 minutes equates to 3.81944444444445% of one day. To explore this further, see this great article written by Dave Bruns over at ExcelJet [here](https://exceljet.net/formulas/calculate-hours-between-two-times).
 
@@ -84,6 +85,25 @@ Some quick tips to get you started:
 
 
 ## The Visualization & Solution
+
+As promised, below is the finalized visualization to replace the text heavy concert flyer for festival goers. The resulting Gantt chart places the venue in rows on the y-axis and the exact start and estimated end times for each performance on the x-axis for the Saturday lineup.
+
+![Arcade Music Fest Gantt Chart](https://github.com/zlaw-21/event-schedule-gantt/blob/main/images/Arcade%20Music%20Fest.png)
+
+The finalized visualization creates an aesthetic and informative resource that allows the user to pre-plan their experience and make split second decisions at the event with ease.
+
+
+## Key Takeaways
+
+While the finalized visualization helped resolve the Arcade Music Fest Flyer use case, I have also created a repeatable process and foundation for those who want to learn to build a single day, minute-level Gantt chart in Excel. 
+
+Key Deliverables include:
+- The finalized excel file [here](https://github.com/zlaw-21/event-schedule-gantt/blob/main/Arcade_Musis_Fest_Gantt.xlsx) for those interested in my visualization.
+- The framework excel file [here](https://github.com/zlaw-21/event-schedule-gantt/blob/main/gantt_chart_template.xlsx) for those who want to learn to build the chart from scratch.
+- The prepackaged excel file [here](https://github.com/zlaw-21/event-schedule-gantt/blob/main/gantt_chart_prepackaged.xlsx) for those who want to build something quickly.
+
+Together, these resources provide flexibility for learning, customization, or quick deployment, making the process adaptable to a wide range of event scheduling needs.
+
 
 
 
