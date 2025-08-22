@@ -90,7 +90,7 @@ As promised, below is the finalized visualization to replace the text heavy conc
 
 ![Arcade Music Fest Gantt Chart](https://github.com/zlaw-21/event-schedule-gantt/blob/main/images/Arcade%20Music%20Fest.png)
 
-The finalized visualization creates an aesthetic and informative resource that allows the user to pre-plan their experience and make split second decisions at the event with ease.
+The result is an aesthetic and informative resource that allows the user to pre-plan their experience and make split second decisions at the event with ease.
 
 
 ## Key Takeaways
