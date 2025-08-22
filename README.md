@@ -70,7 +70,7 @@ All additional series should include:
 
 To add each additional series to the chart:
 - First, Right click the chart area -> Select Data -> Add Series -> Rename to "Diff From Prev 2" and select all data from the Diff from Previous column
-- Next, right click the left most bar on the graph -> Format data series -> Select No fill and No line
+- Next, right click the new bars on the graph -> Format data series -> Select No fill and No line
 - Then, Right click the chart area -> Select Data -> Add Series -> Rename to "Duration 2" and select all data from the Diff from Previous column
 - Repeat this process for each additional series you want visualized on the chart
 
