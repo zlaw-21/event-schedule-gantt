@@ -3,7 +3,7 @@
 - [Introduction](#introduction)
 - [The Problem of the *Flyer*](#the-problem-of-the-flyer)
 - [The Tutorial](#the-tutorial)
-- [The Visualization & Solution](the-visualization-&-solution)
+- [The Visualization & Solution](#the-visualization-solution)
   
 
 ## Introduction
